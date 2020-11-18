@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+
+}
+
+.main-login {
+ height: 550px;
+ width: 400px;
+ background: rgba(250, 250, 250, 0.8);
+ position: fixed;
+ top: 15%;
+ right: 40%;
+ 
+ 
+ 
+}
+.mainl {
+   
+    
+    visibility: hidden; 
+}
+
+
+
+/* .main-login:target {
+    transition: 0.3s;
+    opacity:1 ;
+    visibility: visible;
+} */
+
+.esc {
+    position: absolute;
+    top: 1%;
+    left: 95%;
+    color: rgb(133, 133, 133); 
+}
+.icon-main {
+   position: absolute;
+   top: 30%;
+   left: 38%;
+   right: 0;
+   margin: 0 auto;
+   
+   font-size: 100px;
+   color:rgb(133, 133, 133); 
+}
+
+#log {
+    margin-top: 80%;
+    margin-left:1% ;
+    width:300px ;
+    height:20px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.icon0 {
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    margin-left: 7%;
+}
+#pas {
+    margin-top:0%;
+    margin-left:1.5% ;
+    width:300px ;
+    height:20px ;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+.icon1 {
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    margin-left: 7%;  
+}
+#sub {
+    position: absolute;
+    left: 38%;
+    width:100px ;
+    height:30px ;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    cursor: pointer; 
+}
+.vost-pas {
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.registr {
+    
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+
+.head {
+    width:100% ;
+    height: 100vh;
+    background:url(img-tyr/fon1.jpg);
+    background-size: cover;
+}
+
+
+
+.login {
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color:white;
+    font-family: Bodoni Bk BT;
+    font-size: 18px;
+    border: solid 2px white;
+    border-radius: 15px;
+    float: right;
+    margin-top: 3%;
+    margin-right:5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding-left:5px ;
+}
+.login:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px white;
+}
+.user {
+    float: right;
+    margin-top: 3.3%;
+    margin-right:-1.3%; 
+    color: white;
+    font-size: 18px;
+}
+
+.first-text {
+    font-size: 80px;
+    letter-spacing: 8px;
+    color: white;
+    text-shadow: 1.5px 1.5px 3px black;
+    font-family: Bodoni Bk BT;
+   position: absolute;
+   top: 4%;
+   left: 7%;
+}
+.second-text {
+    color: white;
+    font-family: Bodoni Bk BT;
+    font-size: 25px;
+    position: absolute;
+   top: 51%;
+   left: 7%;
+}
+.heart {
+    margin-left: 45%;
+    color: white;
+    font-size: 35px;
+    transition:0.5s ;
+    position: absolute;
+    top: 61%;
+    left: -10%;
+}
+
+.heart:hover {
+    
+    transition:0.5s ;
+    color:rgb(250, 4, 4);
+   
+}
+.tx0 {
+    color: white;
+    font-family: Bodoni Bk BT;
+    font-size: 25px;
+    position: absolute;
+   top: 56%;
+   left: 16%;
+}
+.tx1 {
+    color: white;
+    font-family: Bodoni Bk BT;
+    font-size: 25px;
+    position: absolute;
+   top: 61%;
+   left: 25%;
+}
+.konsylt {
+    width: 300px;
+    height: 45px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 0px;
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+    position: absolute;
+    top: 80%;
+    left: 41.5%;
+    text-align: center;
+    padding-top: 12.5px;
+    transition: 0.3s;
+   
+}
+.konsylt:hover {
+box-shadow: 0px 0px 15px rgba(253, 253, 253, 0.712);
+transition: 0.3s;
+}
+.box-konsylt {
+    width: 400px;
+    height: 500px;
+    border: 2px rgb(3, 3, 3);
+    background:rgba(250, 250, 250, 0.8);
+    position: fixed;
+    top: 15%;
+    right: 40%;
+    visibility: hidden; 
+ opacity:0;
+ transition: 0.3s;
+}
+
+.box-konsylt:target {
+    transition: 0.3s;
+    opacity:1 ;
+    visibility: visible;
+}
+
+
+.zagolovok {
+text-align: center;
+margin-top: 20%;
+color: rgb(65, 65, 65);
+font-size: 38px;
+}
+.podtext {
+text-align: center;
+margin-top: 10%;
+color: rgb(58, 58, 58);
+font-size: 18px;
+}
+.escape {
+float: right;
+margin:2px 5px ;
+color:rgb(65, 65, 65); ;
+}
+.name {
+    position: absolute;
+    top:50%;
+    left: 5%;
+    
+    border-radius: 5px;
+   
+}
+#name {
+    width:150px ;
+    height:20px ;
+}
+.secondname {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:250px ;
+    height:20px ;
+    border-radius: 5px;
+}
+#secondname {
+    width:150px ;
+    height:20px ;
+}
+.phone {
+    
+    color: rgb(133, 133, 133);
+    
+    
+}
+#phone {
+    color: rgb(133, 133, 133);
+    font-size: 15px;
+    position: absolute;
+    top:56.5%;
+    left: 5%;
+    width:330px ;
+    height:20px ;
+}
+
+#subb {
+    position: absolute;
+    top:80%;
+    left: 150px;
+    width:100px ;
+    height:40px ;
+    border-radius: 3px; 
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    border: solid 0px black;
+    margin-top: 40%;
+    background:rgb(70, 70, 70);
+}
+.text-footer {
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 4%;
+}
+
+.social {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 38%;
+    cursor: pointer;
+    
+    padding-top: 2%; 
+}
+.socilal__item {
+    width: 50px;
+    height: 50px;
+   border: solid 5px white;
+   border-radius: 50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0px 0px 0px black;
+   transition: 0.5s;
+}
+
+
+.facebook-f:hover {
+    transition: 0.5s;
+    color: rgb(36, 68, 250);
+    border: solid 5px rgb(36, 68, 250);
+    box-shadow: 0px 0px 20px rgb(36, 68, 250);
+}
+
+.google:hover {
+    transition: 0.5s;
+    color: rgb(89, 158, 92);
+    border: solid 5px rgb(89, 158, 92);
+    box-shadow: 0px 0px 20px rgb(89, 158, 92);  
+}
+
+.instagram:hover {
+    transition: 0.5s;
+    color: rgb(219, 99, 203);
+    border: solid 5px  rgb(219, 99, 203);
+    box-shadow: 0px 0px 20px rgb(219, 99, 203);
+}
+
+.vk:hover {
+    transition: 0.5s;
+    color: rgb(48, 138, 241);
+    border: solid 5px rgb(48, 138, 241);
+    box-shadow: 0px 0px 20px rgb(48, 138, 241);
+}
+
+.twitter:hover {
+    transition: 0.5s;
+    color: rgb(64, 218, 238);
+    border: solid 5px  rgb(64, 218, 238);
+    box-shadow: 0px 0px 20px rgb(64, 218, 238);
+}
+.kontakt {
+ color: rgb(255, 255, 255);
+ float: right;
+ position: relative;
+ top: -15%;
+ right: 15%;
+ width: 100px;
+ height: 30px;
+ padding-top:5px ;
+ border: solid 1px rgb(255, 255, 255);
+ border-radius: 3px;
+ text-align: center;
+ cursor: pointer;
+ transition: 0.3s;
+}
+.kontakt:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px white;
+}
+.text-kontakt {
+ color: rgb(255, 255, 255);
+float: right;
+position: relative;
+top: 10%;
+right: 9.3%;
+}
+.text-hidden {
+    visibility: hidden;
+}
